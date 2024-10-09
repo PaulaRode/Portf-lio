@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+body {
+    background-color: #384B70;
+    color: black;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.7em;
+    margin-bottom: 20px;
+    color: black;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: black;
+    background-color: #FCFAEE;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #384B70;
+}
+
+
